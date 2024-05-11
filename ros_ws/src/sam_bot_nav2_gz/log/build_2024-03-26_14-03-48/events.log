@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (sam_bot_nav2_gz) JobQueued: {'identifier': 'sam_bot_nav2_gz', 'dependencies': OrderedDict()}
+[0.000257] (sam_bot_nav2_gz) JobStarted: {'identifier': 'sam_bot_nav2_gz'}
+[0.053887] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'cmake'}
+[0.054221] (sam_bot_nav2_gz) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz'], 'cwd': '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz', 'env': OrderedDict([('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2428,unix/ubuntu:/tmp/.ICE-unix/2428'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da8bab79_5b1a_469b_9233_be305817c907'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099306] (-) TimerEvent: {}
+[0.199665] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.400767] (-) TimerEvent: {}
+[0.429269] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500951] (-) TimerEvent: {}
+[0.601476] (-) TimerEvent: {}
+[0.609601] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.621947] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.699003] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.701573] (-) TimerEvent: {}
+[0.705676] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.706412] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.707917] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.712006] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.784441] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.791029] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.791285] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.791796] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.799695] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.801672] (-) TimerEvent: {}
+[0.901907] (-) TimerEvent: {}
+[0.958848] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.002001] (-) TimerEvent: {}
+[1.090205] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)\n'}
+[1.096036] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)\n'}
+[1.099926] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.102088] (-) TimerEvent: {}
+[1.202413] (-) TimerEvent: {}
+[1.222782] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.229856] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.230095] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.230205] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.237126] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.237278] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.238545] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.238676] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.240939] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.242332] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.249595] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.249729] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.251081] (sam_bot_nav2_gz) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.253291] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.256956] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Generating done\n'}
+[1.257952] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz\n'}
+[1.261588] (sam_bot_nav2_gz) CommandEnded: {'returncode': 0}
+[1.263051] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'build'}
+[1.263086] (sam_bot_nav2_gz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz', 'env': OrderedDict([('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2428,unix/ubuntu:/tmp/.ICE-unix/2428'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da8bab79_5b1a_469b_9233_be305817c907'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.295629] (sam_bot_nav2_gz) CommandEnded: {'returncode': 0}
+[1.302522] (-) TimerEvent: {}
+[1.314243] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'install'}
+[1.322049] (sam_bot_nav2_gz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz'], 'cwd': '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz', 'env': OrderedDict([('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2428,unix/ubuntu:/tmp/.ICE-unix/2428'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da8bab79_5b1a_469b_9233_be305817c907'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/999/bus,guid=029e0f4fc8d61d8d3d98334166030c5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.328251] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.328408] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src\n'}
+[1.328538] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description\n'}
+[1.328599] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf\n'}
+[1.328759] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description_ros2_control.urdf\n'}
+[1.328885] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts\n'}
+[1.329011] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py\n'}
+[1.329139] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py\n'}
+[1.329257] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py\n'}
+[1.329398] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch\n'}
+[1.329512] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/diff_drive.launch.py\n'}
+[1.329629] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py\n'}
+[1.329751] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/tst_diff_drive.launch.py\n'}
+[1.329915] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz\n'}
+[1.330030] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz\n'}
+[1.330148] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz\n'}
+[1.330265] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config\n'}
+[1.330381] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml\n'}
+[1.330498] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml\n'}
+[1.330613] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ros_gz_example_bridge.yaml\n'}
+[1.330734] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world\n'}
+[1.330822] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf\n'}
+[1.330938] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/turtlebot3_world.sdf\n'}
+[1.331074] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models\n'}
+[1.331197] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world\n'}
+[1.331329] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes\n'}
+[1.331420] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/wall.dae\n'}
+[1.331542] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/hexagon.dae\n'}
+[1.331661] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps\n'}
+[1.331772] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.yaml\n'}
+[1.331893] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.pgm\n'}
+[1.332178] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py\n'}
+[1.332305] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py\n'}
+[1.332549] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz\n'}
+[1.332756] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz\n'}
+[1.332964] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh\n'}
+[1.333124] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv\n'}
+[1.333287] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh\n'}
+[1.333460] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv\n'}
+[1.333632] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash\n'}
+[1.333801] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh\n'}
+[1.333972] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh\n'}
+[1.334140] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv\n'}
+[1.334307] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv\n'}
+[1.334521] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz\n'}
+[1.334732] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake\n'}
+[1.334876] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake\n'}
+[1.335039] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml\n'}
+[1.336717] (sam_bot_nav2_gz) CommandEnded: {'returncode': 0}
+[1.402603] (-) TimerEvent: {}
+[1.473553] (sam_bot_nav2_gz) JobEnded: {'identifier': 'sam_bot_nav2_gz', 'rc': 0}
+[1.474059] (-) EventReactorShutdown: {}

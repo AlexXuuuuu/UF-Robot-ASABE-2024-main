@@ -1,0 +1,95 @@
+# https://control.ros.org/master/index.html
+# https://control.ros.org/iron/doc/ros2_control/controller_manager/doc/userdoc.html
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Hz
+    use_sim_time: True
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    diff_drive_base_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    imu_sensor_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+    arm_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+# https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html
+diff_drive_base_controller:
+  ros__parameters:
+    use_sim_time: True
+    left_wheel_names: ["drivewhl_l_joint"]
+    right_wheel_names: ["drivewhl_r_joint"]
+
+    wheel_separation: 0.35
+    wheels_per_side: 1
+    wheel_radius: 0.05
+
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+
+    publish_limited_velocity: True
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    pose_covariance_diagonal : [0.001, 0.001, 0.0, 0.0, 0.0, 0.01]
+    twist_covariance_diagonal: [0.001, 0.0, 0.0, 0.0, 0.0, 0.01]
+
+    open_loop: false
+    enable_odom_tf: true
+
+    cmd_vel_timeout: 1.0
+    #publish_limited_velocity: true
+    use_stamped_vel: false
+    #velocity_rolling_window_size: 10
+
+    # Velocity and acceleration limits
+    # Whenever a min_* is unspecified, default to -max_*
+    linear.x.has_velocity_limits: true
+    linear.x.has_acceleration_limits: true
+    linear.x.has_jerk_limits: false
+    linear.x.max_velocity: 1.0
+    linear.x.min_velocity: -1.0
+    linear.x.max_acceleration: 1.0
+    linear.x.max_jerk: 0.0
+    linear.x.min_jerk: 0.0
+
+    angular.z.has_velocity_limits: true
+    angular.z.has_acceleration_limits: true
+    angular.z.has_jerk_limits: false
+    angular.z.max_velocity: 1.0
+    angular.z.min_velocity: -1.0
+    angular.z.max_acceleration: 1.0
+    angular.z.min_acceleration: -1.0
+    angular.z.max_jerk: 0.0
+    angular.z.min_jerk: 0.0
+    
+imu_sensor_broadcaster:
+  ros__parameters:
+    use_sim_time: True
+    sensor_name: imu_sensor
+    frame_id: /imu
+
+
+arm_trajectory_controller:
+  ros__parameters:
+    joints:
+      - Joint_arm2
+      - Joint_arm3
+      - Joint_arm4
+      - Joint_arm5
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+
+    state_publish_rate: 10.0
+    action_monitor_rate: 10.0

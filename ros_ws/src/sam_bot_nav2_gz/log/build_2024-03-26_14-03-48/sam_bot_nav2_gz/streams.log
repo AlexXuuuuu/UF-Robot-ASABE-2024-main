@@ -1,0 +1,87 @@
+[0.054s] Invoking command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.609s] -- The CXX compiler identification is GNU 11.4.0
+[0.622s] -- Detecting C compiler ABI info
+[0.699s] -- Detecting C compiler ABI info - done
+[0.705s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.706s] -- Detecting C compile features
+[0.708s] -- Detecting C compile features - done
+[0.712s] -- Detecting CXX compiler ABI info
+[0.784s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.792s] -- Detecting CXX compile features - done
+[0.799s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.959s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.090s] -- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+[1.096s] -- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+[1.100s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.223s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.230s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.230s] -- Configured cppcheck include dirs: 
+[1.230s] -- Configured cppcheck exclude dirs and/or files: 
+[1.237s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.237s] -- Configured cpplint exclude dirs and/or files: 
+[1.238s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.238s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.241s] -- Added test 'lint_cmake' to check CMake code style
+[1.242s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.249s] -- Added test 'uncrustify' to check C / C++ code style
+[1.250s] -- Configured uncrustify additional arguments: 
+[1.251s] -- Added test 'xmllint' to check XML markup files
+[1.253s] -- Configuring done
+[1.257s] -- Generating done
+[1.258s] -- Build files have been written to: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz
+[1.261s] Invoked command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz
+[1.263s] Invoking command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz -- -j8 -l8
+[1.295s] Invoked command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz -- -j8 -l8
+[1.322s] Invoking command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz
+[1.328s] -- Install configuration: ""
+[1.328s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src
+[1.328s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description
+[1.328s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description_ros2_control.urdf
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/diff_drive.launch.py
+[1.329s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/tst_diff_drive.launch.py
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ros_gz_example_bridge.yaml
+[1.330s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/turtlebot3_world.sdf
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/wall.dae
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/hexagon.dae
+[1.331s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps
+[1.332s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.yaml
+[1.332s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.pgm
+[1.332s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py
+[1.332s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py
+[1.332s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml
+[1.337s] Invoked command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz

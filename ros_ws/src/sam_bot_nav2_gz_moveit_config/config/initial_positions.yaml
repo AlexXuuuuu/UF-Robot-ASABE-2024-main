@@ -1,0 +1,7 @@
+# Default initial positions for asabe_robot_description's ros2_control fake system
+
+initial_positions:
+  Joint_arm2: 0
+  Joint_arm3: 0
+  Joint_arm4: 0
+  Joint_arm5: 0

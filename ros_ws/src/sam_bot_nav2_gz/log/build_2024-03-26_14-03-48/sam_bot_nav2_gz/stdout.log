@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+-- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description_ros2_control.urdf
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/diff_drive.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/tst_diff_drive.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ros_gz_example_bridge.yaml
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/turtlebot3_world.sdf
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/wall.dae
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/hexagon.dae
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.yaml
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.pgm
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml

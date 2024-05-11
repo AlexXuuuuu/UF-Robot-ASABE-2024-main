@@ -1,0 +1,52 @@
+[0.068s] Invoking command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz -- -j8 -l8
+[0.102s] Invoked command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz -- -j8 -l8
+[0.130s] Invoking command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz
+[0.137s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src
+[0.137s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description
+[0.137s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description_ros2_control.urdf
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch
+[0.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/diff_drive.launch.py
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/tst_diff_drive.launch.py
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ros_gz_example_bridge.yaml
+[0.139s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/turtlebot3_world.sdf
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/wall.dae
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/turtlebot3_world/meshes/hexagon.dae
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.yaml
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/maps/turtlebot3_world.pgm
+[0.140s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash
+[0.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh
+[0.142s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh
+[0.142s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv
+[0.142s] -- Installing: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv
+[0.142s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz
+[0.142s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake
+[0.143s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake
+[0.143s] -- Up-to-date: /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml
+[0.143s] Invoked command in '/home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/sam_bot_nav2_gz/build/sam_bot_nav2_gz
